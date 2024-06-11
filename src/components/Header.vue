@@ -45,15 +45,17 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              <!-- 귀여운 프로필 이미지 -->
-              <img
-                src="https://placekitten.com/30/30"
-                alt="Profile"
-                class="rounded-circle"
-              />
+              <!-- 프로필 아이콘 수정 -->
+              <i
+                class="fa-regular fa-user"
+                style="size: 30px; color: white"
+              ></i>
             </a>
             <!-- 드롭다운 메뉴 -->
-            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+            <ul
+              class="dropdown-menu dropdown-menu-end"
+              aria-labelledby="navbarDropdown"
+            >
               <li><a class="dropdown-item" href="#">Profile</a></li>
               <li><a class="dropdown-item" href="#">Logout</a></li>
             </ul>
@@ -65,7 +67,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref } from "vue";
 
 // 네비게이션 바 토글 상태를 관리하는 ref
 const isNavShow = ref(false);
