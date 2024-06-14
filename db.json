@@ -2,73 +2,73 @@
   "incomeCategory": [
     {
       "id": "1",
-      "title": "salary"
+      "title": "급여"
     },
     {
       "id": "2",
-      "title": "allowance"
+      "title": "용돈"
     },
     {
       "id": "3",
-      "title": "interest"
+      "title": "이자"
     },
     {
       "id": "4",
-      "title": "bonus"
+      "title": "보너스"
     },
     {
       "id": "5",
-      "title": "financial_income"
+      "title": "금융수입"
     },
     {
       "id": "6",
-      "title": "insurance"
+      "title": "보험금"
     },
     {
       "id": "7",
-      "title": "other_income"
+      "title": "기타수입"
     }
   ],
   "expenseCategory": [
     {
       "id": "1",
-      "title": "food"
+      "title": "식비"
     },
     {
       "id": "2",
-      "title": "cafes/snacks"
+      "title": "카페/간식"
     },
     {
       "id": "3",
-      "title": "entertainment"
+      "title": "술/유흥"
     },
     {
       "id": "4",
-      "title": "living_expenses"
+      "title": "생활"
     },
     {
       "id": "5",
-      "title": "transportation"
+      "title": "교통"
     },
     {
       "id": "6",
-      "title": "housing/communication"
+      "title": "주거/통신"
     },
     {
       "id": "7",
-      "title": "education"
+      "title": "교육"
     },
     {
       "id": "8",
-      "title": "health"
+      "title": "건강"
     },
     {
       "id": "9",
-      "title": "culture/recreation"
+      "title": "문화/여가"
     },
     {
       "id": "10",
-      "title": "travel"
+      "title": "여행"
     }
   ],
   "date": [
