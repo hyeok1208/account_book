@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "TheJamsil5Bold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+.expense-tracker {
+  font-family: "TheJamsil5Bold";
+  text-align: center;
+  margin: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+th,
+td {
+  border: 1px solid #000;
+  padding: 8px;
+}
+th {
+  background-color: rgb(239, 239, 92);
+}
+tfoot td {
+  font-weight: bold;
+}
+.buttons {
+  margin-top: 20px;
+}
+button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgb(239, 239, 92);
+  border-color: black;
+  font-family: "TheJamsil5Bold";
+}
+.addbtn {
+  border-radius: 60%;
+}
+.deletebtn {
+  font-family: "TheJamsil5Bold";
+  color: red;
+  font-weight: 1000;
+  background-color: rgb(239, 239, 92);
+  width: 60%;
+  height: 60%;
+  font-size: 12px;
+  border-radius: 5px;
+}
+.bottombtn {
+  border-radius: 5px;
+}
+select,
+input[type="text"] {
+  width: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+}
+.month-selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+.month-selector button {
+  margin: 0 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.month-text {
+  font-size: 24px; /* 월 지출 텍스트 크기 증가 */
+  margin: 0 20px;
+}
+/* 추가된 스타일 */
+td:nth-child(1) {
+  width: 10%; /* 날짜 칸의 너비 조정 */
+}
+td:nth-child(2) {
+  width: 40%; /* 분류 칸의 너비 조정 */
+}
+td:nth-child(3) {
+  width: 20%; /* 세부사항 칸의 너비 조정 */
+}
+td:nth-child(4) {
+  width: 20%; /* 지출금액 칸의 너비 조정 */
+}
+td:nth-child(5) {
+  width: 10%; /* 삭제 버튼 칸의 너비 조정 */
+}
